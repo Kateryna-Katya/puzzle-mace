@@ -309,3 +309,101 @@ margin-right: auto;
         height: 48px;
     }
 }
+/* Stay Updated on the Latest Puzzle Game Releases */
+.stay-title{
+    width: 374px;
+    margin-left: -20px;
+}
+.stay-text{
+    margin-top: 10px;
+}
+.stay-text-two{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.stay-swiper-slide{
+    cursor: pointer;
+}
+@media only screen and (min-width: 1439px) {
+ .stay-title{
+    font-size: 34px;
+    width: 939px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .stay-text{
+    margin-top: 18px;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .stay-text-two{
+    margin-top: 46px;
+ }
+ .stay-swiper-wrapper{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 80px;
+ }
+ .stay-swiper-slide{
+    border-radius: 30px;
+        max-width: 365px;
+        height: 482px;
+   }
+}
+/* Exclusive Puzzle Resources Just for You */
+.exclusive-title{
+    width: 374px;
+    margin-left: -20px;
+}
+.exclusive-text{
+    margin-top: 10px;
+}
+.exclusive-text-two{
+    margin-top: 16px;
+}
+.exclusive-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.exclusive-item{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.exclusive-img{
+    width: 50px;
+        height: 50px;
+}
+@media only screen and (min-width: 1439px) {
+ .exclusive-title{
+    font-size: 34px;
+    width: 939px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .exclusive-text{
+    margin-top: 18px;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .exclusive-list{
+    gap: 37px;
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .exclusive-item{
+   gap: 123px;
+ }
+ .exclusive-img{
+    width: 100px;
+        height: 100px;
+ }
+}

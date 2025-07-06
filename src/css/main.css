@@ -222,7 +222,7 @@ margin-right: auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    align-items: center;    
+    align-items: center;
 }
 .expert-item{
     display: flex;
@@ -406,4 +406,91 @@ margin-right: auto;
     width: 100px;
         height: 100px;
  }
+}
+/* Engage with Fellow Puzzle Lovers */
+.lovers-section{
+  background: #31254c;
+}
+.lovers-text{
+  margin-top: 10px;
+}
+.lovers-text-two{
+  margin-top: 20px;
+}
+.social-wrapper{
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.lovers-img{
+  width: 39px;
+  height: 39px;
+}
+.lovers-text-three{
+  margin-top: 20px;
+  width: 354px;
+  margin-left: -10px;
+}
+@media only screen and (min-width: 1439px) {
+.lovers-title{
+  font-size: 34px;
+}
+.lovers-text{
+  margin-top: 20px;
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-wrapper{
+  gap: 50px;
+}
+.lovers-img{
+  width: 48px;
+  height: 48px;
+}
+.lovers-text-three{
+  margin-top: 54px;
+  width: 819px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+/* We’d Love to Hear from You! */
+.hear-text{
+  margin-top: 10px;
+}
+.contact-wrapper{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+margin-left: 60px;
+}
+.social-hash-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+@media only screen and (min-width: 1439px) {
+.hear-title{
+  font-size: 34px;
+}
+.hear-text{
+  margin-top: 12px;
+  width: 667px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-wrapper{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-hash-wrapper{
+  margin-top: 30px;
+  gap: 30px;
+  margin-left: 40px;
+}
 }

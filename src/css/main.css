@@ -1,0 +1,113 @@
+/* Hero */
+.home-section{
+    background-image: url("/img/hero/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 578px;
+}
+.home-title{
+    margin-top: 81px;
+    font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        width: 374px;
+        margin-left: -22px;
+}
+.home-text{
+    margin-top: 62px;
+    font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        width: 360px;
+        margin-left: -14px;
+}
+.home-text-two{
+margin-top: 27px;
+width: 266px;
+margin-left: auto;
+margin-right: auto;
+}
+.home-btn-wrapper{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.start-btn{
+    background: #f8ad27;
+    border-radius: 10px;
+    padding: 8px 17px;
+        width: 194px;
+        height: 35px;
+        font-family: "IBM Plex Sans", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #31254c;
+}
+.join-btn{
+    background: #44c2c2;
+    border-radius: 10px;
+        width: 230px;
+        height: 35px;
+        padding: 10px 14px;
+        font-family: "IBM Plex Sans", sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #fff;
+}
+@media only screen and (min-width: 1439px) {
+ .home-section{
+    background-image: url("/img/hero/desk.png");
+    height: 770px;
+ }
+ .home-title{
+    margin-top: 104px;
+    font-size: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1083px;
+ }
+ .home-text{
+    width: 809px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 24px;
+ }
+ .home-text-two{
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+ }
+ .home-btn-wrapper{
+    margin-top: 144px;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+ }
+ .start-btn{
+    width: 334px;
+        height: 61px;
+        font-size: 24px;
+        padding: 16px 59px;
+ }
+ .join-btn{
+    width: 468px;
+        height: 61px;
+        font-size: 24px;
+        padding: 16px 59px;
+ }
+}

@@ -111,3 +111,149 @@ margin-right: auto;
         padding: 16px 59px;
  }
 }
+/* About Us */
+.about-text{
+    margin-top: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-text-two{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 312px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1439px) {
+ .about-text{
+    margin-top: 140px;
+    width: 539px;
+    margin-left: 80px;
+    margin-right: auto;
+ }
+ .about-text-two{
+    margin-top: 14px;
+    margin-bottom: 0;
+    width: 567px;
+        margin-left: 80px;
+        margin-right: auto;
+ }
+ .about-img{
+    margin-right: 40px;
+    margin-left: auto;
+    margin-top: -340px;
+ }
+}
+/* Game Reviews & Rankings */
+.game-text{
+    margin-top: 14px;
+}
+.game-text-two{
+    margin-top: 31px;
+}
+.game-text-three{
+    margin-top: 30px;
+}
+.game-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.game-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.game-img-one{
+    width: 38px;
+        height: 34px;
+}
+.game-img-two{
+    width: 44px;
+        height: 31px;
+}
+.game-img-three{
+    width: 44px;
+        height: 42px;
+}
+@media only screen and (min-width: 1439px) {
+  .game-text-two{
+    margin-top: 20px;
+    width: 676px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.game-list{
+    margin-left: auto;
+    margin-right: auto;
+    gap: 35px;
+    width: 680px;
+}
+.game-img-one{
+    width: 78px;
+        height: 69px;
+}
+.game-img-two{
+    width: 84px;
+        height: 60px;
+}
+.game-img-three{
+    width: 84px;
+        height: 81px;
+}
+}
+/* Expert Tips & Guides */
+.expert-text{
+    margin-top: 14px;
+}
+.expert-text-two{
+    margin-top: 24px;
+    width: 338px;
+
+}
+.expert-text-three{
+    margin-top: 20px;
+}
+.expert-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;    
+}
+.expert-item{
+    display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+        width: 279px;
+}
+.expert-text-item{
+    text-align: center;
+}
+@media only screen and (min-width: 1439px) {
+  .expert-text{
+    margin-top: 30px;
+  }
+  .expert-text-two{
+    margin-top: 12px;
+    width: 757px;
+        margin-left: auto;
+        margin-right: auto;
+  }
+  .expert-text-three{
+    margin-top: 42px;
+  }
+  .expert-list{
+    margin-top: 50px;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .expert-item{
+    width: 279px;
+    gap: 20px;
+  }
+}

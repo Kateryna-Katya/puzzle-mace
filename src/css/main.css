@@ -257,3 +257,55 @@ margin-right: auto;
     gap: 20px;
   }
 }
+/* Test Your Skills with Our Weekly Puzzles */
+.test-text{
+    margin-top: 14px;
+    width: 289px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.test-text-two{
+    margin-top: 30px;
+}
+.test-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 360px;
+}
+.test-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.test-img{
+    width: 24px;
+    height: 24px;
+}
+@media only screen and (min-width: 1439px) {
+    .test-title{
+        font-size: 34px;
+    }
+    .test-text{
+        margin-top: 18px;
+        width: 514px;
+    }
+    .test-text-two{
+        margin-top: 46px;
+    }
+    .test-list{
+        margin-top: 70px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 60px;
+    }
+    .test-item{
+        gap: 50px;
+    }
+    .test-img{
+        width: 48px;
+        height: 48px;
+    }
+}

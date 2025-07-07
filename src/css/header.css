@@ -1,44 +1,100 @@
 .header {
-  padding: 20px 0;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1c2643;
+  border-radius: 0 0 22px 22px;
+  height: 54px;
+  width: 100%;
+  z-index: 1003;
 }
-.nav {
+
+.header-container {
+padding: 4px 37px;
+display: flex;
+justify-content: space-between;
+}
+.header-logo{
+  width: 46px;
+    height: 46px;
+}
+.menu-button {
   display: flex;
-  justify-content: space-between;
-}
-.nav-logo {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
+  border: none;
+  margin-left: auto;
+   width: 48px;
+  height: 48px;
+  background:inherit;
+  cursor: pointer;
+
 }
-.nav-list {
+
+.navigation-list {
+  display: none;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  background: #1c2643;
+  width: 260px;
+  height: auto;
+  z-index: 1000;
+  position: fixed;
+  top: 50px;
+  left: 67%;
+  transform: translateX(-50%);
+  padding: 20px;
+  transition: visibility 0.3s ease;
+}
+.menu-list {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
 }
-.nav-link {
-  position: relative;
-  display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: 200ms ease-in;
+
+.menu-list-item {
+  font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  cursor: pointer;
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+@media screen and (min-width: 1440px) {
+  .header {
+    height: 80px;
+  }
+
+  .header-container {
+    padding: 2px 32px 8px;
+    align-items: center;
+    justify-content: start;
+    gap: 100px;
+  }
+.header-logo{
+  width: 70px;
+  height: 70px;
 }
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
-  border-radius: 4px;
-  transform-origin: center;
-  animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
-}
-.nav-link.active::after {
-  background: #747bff;
+  .menu-button {
+    display: none;
+  }
+  .navigation-list {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .navigation-item {
+    font-family: "IBM Plex Sans", sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #fff;
+    cursor: pointer;
+  }
 }
